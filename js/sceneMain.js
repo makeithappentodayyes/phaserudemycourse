@@ -11,6 +11,9 @@ class SceneMain extends Phaser.Scene {
     create() {
         //define our objects
         var road=new Road({scene:this});
+        road.x=game.config.width/2;
+    
+        
     }
     update() 
     {
